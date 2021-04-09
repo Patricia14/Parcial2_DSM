@@ -9,8 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Desafio1Ejer3">
-        <activity android:name=".MedicineActivity"></activity>
-        <activity android:name=".FacturaActivity"></activity>
+        <activity android:name=".PrimeraActivity"></activity>
+        <activity android:name=".MedicineActivity" />
+        <activity android:name=".FacturaActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
