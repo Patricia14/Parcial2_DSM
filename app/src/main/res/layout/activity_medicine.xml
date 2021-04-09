@@ -9,7 +9,6 @@
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:onClick="Factura"
         android:padding="16dp"
         android:stretchColumns="1"
         app:layout_constraintTop_toTopOf="parent">
@@ -342,8 +341,7 @@
 
 
         <Button
-            android:id="@+id/btnFactura"
-            android:onClick="Total"
+            android:id="@+id/mbtnFactura"
             android:text="Factura"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

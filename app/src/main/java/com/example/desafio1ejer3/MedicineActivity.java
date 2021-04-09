@@ -5,9 +5,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class MedicineActivity extends AppCompatActivity {
+    private Button btnFactura;
     TextView tv1, tv2,tv3,tv4, tv5, tv6,tv7,tv8,tv9, tv10, textView7;
     TextView tvs1,tvs2, tvs3, tvs4, tvs5, tvs6, tvs7, tvs8, tvs9, tvs10;
     double contar1 =0;
@@ -22,10 +24,13 @@ public class MedicineActivity extends AppCompatActivity {
     double contar10 =0;
     double total=0;
     double costo;
+
       @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_medicine);
+
+          btnFactura = findViewById(R.id.mbtnFactura);
 
 
           tv1=(TextView) findViewById(R.id.tv1);
@@ -40,8 +45,15 @@ public class MedicineActivity extends AppCompatActivity {
           tv10=(TextView) findViewById(R.id.tv10);
           textView7=(TextView) findViewById(R.id.textView7);
 
-
+          btnFactura.setOnClickListener(new View.OnClickListener() {
+              @Override
+              public void onClick(View v) {
+                  Intent i = new Intent(getBaseContext(), FacturaActivity.class);
+                  startActivity(i);
+              }
+          });
       }
+
     public void contador1 (View view){
         contar1++;
         int val=(int) contar1;
@@ -98,11 +110,4 @@ public class MedicineActivity extends AppCompatActivity {
   textView7.setText(Double.toString(costo));
     }
 
-
-
-
-    public void Factura(View in){
-        Intent f = new Intent(this, FacturaActivity.class);
-        startActivity(f);
-    }
 }
