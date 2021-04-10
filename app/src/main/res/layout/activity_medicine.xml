@@ -41,11 +41,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="contador1"
-<<<<<<< Updated upstream
-                android:text="@string/btnAcetaminofen"
-=======
                 android:text="@string/text1"
->>>>>>> Stashed changes
                 tools:layout_editor_absoluteX="59dp"
                 tools:layout_editor_absoluteY="121dp" />
 
@@ -70,11 +66,7 @@
                 android:layout_width="151dp"
                 android:layout_height="47dp"
                 android:onClick="contador2"
-<<<<<<< Updated upstream
-                android:text="@string/btnCream"
-=======
                 android:text="@string/text2"
->>>>>>> Stashed changes
                 tools:layout_editor_absoluteX="59dp"
                 tools:layout_editor_absoluteY="169dp" />
 
@@ -101,11 +93,7 @@
                 android:layout_width="151dp"
                 android:layout_height="47dp"
                 android:onClick="contador3"
-<<<<<<< Updated upstream
-                android:text="@string/btnCurita"
-=======
                 android:text="@string/text3"
->>>>>>> Stashed changes
                 tools:layout_editor_absoluteX="59dp"
                 tools:layout_editor_absoluteY="169dp" />
 
@@ -134,11 +122,7 @@
                 android:layout_width="149dp"
                 android:layout_height="51dp"
                 android:onClick="contador4"
-<<<<<<< Updated upstream
-                android:text="@string/btnVendaje"
-=======
                 android:text="@string/text4"
->>>>>>> Stashed changes
                 tools:layout_editor_absoluteX="59dp"
                 tools:layout_editor_absoluteY="261dp" />
 
@@ -166,11 +150,7 @@
                 android:layout_width="149dp"
                 android:layout_height="48dp"
                 android:onClick="contador5"
-<<<<<<< Updated upstream
-                android:text="@string/btnSuero"
-=======
                 android:text="@string/text5"
->>>>>>> Stashed changes
                 tools:layout_editor_absoluteX="59dp"
                 tools:layout_editor_absoluteY="312dp" />
 
@@ -199,11 +179,7 @@
                 android:layout_width="147dp"
                 android:layout_height="46dp"
                 android:onClick="contador6"
-<<<<<<< Updated upstream
                 android:text="@string/btnVitamina"
-=======
-                android:text="@string/text6"
->>>>>>> Stashed changes
                 tools:layout_editor_absoluteX="61dp"
                 tools:layout_editor_absoluteY="362dp" />
 
@@ -232,11 +208,7 @@
                 android:layout_width="149dp"
                 android:layout_height="46dp"
                 android:onClick="contador7"
-<<<<<<< Updated upstream
                 android:text="@string/btnSun"
-=======
-                android:text="@string/text7"
->>>>>>> Stashed changes
                 tools:layout_editor_absoluteX="59dp"
                 tools:layout_editor_absoluteY="410dp" />
 
@@ -265,11 +237,7 @@
                 android:layout_width="149dp"
                 android:layout_height="46dp"
                 android:onClick="contador8"
-<<<<<<< Updated upstream
                 android:text="@string/btnGrip"
-=======
-                android:text="@string/text8"
->>>>>>> Stashed changes
                 tools:layout_editor_absoluteX="59dp"
                 tools:layout_editor_absoluteY="458dp" />
 
@@ -299,11 +267,7 @@
                 android:layout_width="149dp"
                 android:layout_height="47dp"
                 android:onClick="contador9"
-<<<<<<< Updated upstream
                 android:text="@string/btnAlcohol"
-=======
-                android:text="@string/text9"
->>>>>>> Stashed changes
                 tools:layout_editor_absoluteX="59dp"
                 tools:layout_editor_absoluteY="505dp" />
 
@@ -332,11 +296,7 @@
                 android:layout_width="150dp"
                 android:layout_height="46dp"
                 android:onClick="contador10"
-<<<<<<< Updated upstream
                 android:text="@string/btnMascarilla"
-=======
-                android:text="@string/text10"
->>>>>>> Stashed changes
                 tools:layout_editor_absoluteX="59dp"
                 tools:layout_editor_absoluteY="554dp" />
 
