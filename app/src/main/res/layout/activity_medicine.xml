@@ -41,7 +41,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="contador1"
-                android:text="Acetaminofén"
+                android:text="@string/btnAcetaminofen"
                 tools:layout_editor_absoluteX="59dp"
                 tools:layout_editor_absoluteY="121dp" />
 
@@ -66,7 +66,7 @@
                 android:layout_width="151dp"
                 android:layout_height="47dp"
                 android:onClick="contador2"
-                android:text="Cold Cream"
+                android:text="@string/btnCream"
                 tools:layout_editor_absoluteX="59dp"
                 tools:layout_editor_absoluteY="169dp" />
 
@@ -93,7 +93,7 @@
                 android:layout_width="151dp"
                 android:layout_height="47dp"
                 android:onClick="contador3"
-                android:text="Curitas"
+                android:text="@string/btnCurita"
                 tools:layout_editor_absoluteX="59dp"
                 tools:layout_editor_absoluteY="169dp" />
 
@@ -122,7 +122,7 @@
                 android:layout_width="149dp"
                 android:layout_height="51dp"
                 android:onClick="contador4"
-                android:text="Vendaje"
+                android:text="@string/btnVendaje"
                 tools:layout_editor_absoluteX="59dp"
                 tools:layout_editor_absoluteY="261dp" />
 
@@ -150,7 +150,7 @@
                 android:layout_width="149dp"
                 android:layout_height="48dp"
                 android:onClick="contador5"
-                android:text="Suero oral"
+                android:text="@string/btnSuero"
                 tools:layout_editor_absoluteX="59dp"
                 tools:layout_editor_absoluteY="312dp" />
 
@@ -179,7 +179,7 @@
                 android:layout_width="147dp"
                 android:layout_height="46dp"
                 android:onClick="contador6"
-                android:text="Vitamina C"
+                android:text="@string/btnVitamina"
                 tools:layout_editor_absoluteX="61dp"
                 tools:layout_editor_absoluteY="362dp" />
 
@@ -208,7 +208,7 @@
                 android:layout_width="149dp"
                 android:layout_height="46dp"
                 android:onClick="contador7"
-                android:text="Sunscreen"
+                android:text="@string/btnSun"
                 tools:layout_editor_absoluteX="59dp"
                 tools:layout_editor_absoluteY="410dp" />
 
@@ -237,7 +237,7 @@
                 android:layout_width="149dp"
                 android:layout_height="46dp"
                 android:onClick="contador8"
-                android:text="Virogrip"
+                android:text="@string/btnGrip"
                 tools:layout_editor_absoluteX="59dp"
                 tools:layout_editor_absoluteY="458dp" />
 
@@ -267,7 +267,7 @@
                 android:layout_width="149dp"
                 android:layout_height="47dp"
                 android:onClick="contador9"
-                android:text="alcohol gel"
+                android:text="@string/btnAlcohol"
                 tools:layout_editor_absoluteX="59dp"
                 tools:layout_editor_absoluteY="505dp" />
 
@@ -296,7 +296,7 @@
                 android:layout_width="150dp"
                 android:layout_height="46dp"
                 android:onClick="contador10"
-                android:text="Mascarilla"
+                android:text="@string/btnMascarilla"
                 tools:layout_editor_absoluteX="59dp"
                 tools:layout_editor_absoluteY="554dp" />
 
@@ -342,7 +342,7 @@
 
         <Button
             android:id="@+id/mbtnFactura"
-            android:text="Factura"
+            android:text="@string/btnFactura"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

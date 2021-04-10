@@ -4,4 +4,17 @@
     <string name="btnCompra">Realizar Compra</string>
     <string name="btnHistorial">Ver Historial</string>
     <string name="content_desc_splash_screen">SPLASH SCREEN</string>
+    <string name="btnAcetaminofen">Acetaminofen</string>
+    <string name="btnCream">Cold Cream</string>
+    <string name="btnCurita">Curitas</string>
+    <string name="btnVendaje">Vendaje</string>
+    <string name="btnSuero">Suero Oral</string>
+    <string name="btnVitamina">Vitamina C</string>
+    <string name="btnSun">SunScreen</string>
+    <string name="btnGrip">ViroGrip</string>
+    <string name="btnAlcohol">Alcohol Gel</string>
+    <string name="btnMascarilla">Mascarilla</string>
+    <string name="btnFactura">Factura</string>
+
+
 </resources>
