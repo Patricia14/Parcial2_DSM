@@ -3,7 +3,20 @@
     <string name="btnLogout">Cerrar Sesion</string>
     <string name="btnCompra">Realizar Compra</string>
     <string name="btnHistorial">Ver Historial</string>
+    <string name="text1">Acetaminofén</string>
+    <string name="text2">Cold Cream</string>
+    <string name="text3">Curitas(50u)</string>
+    <string name="text4">Vendas</string>
+    <string name="text5">Suero Oral</string>
+    <string name="text6">Vitamina C</string>
+    <string name="text7">SunScreen</string>
+    <string name="text8">Virogrip</string>
+    <string name="text9">Alcohol Gel</string>
+    <string name="text10">Mascarilla</string>
+    <string name="btnFactura">Generar Factura</string>
+    <string name="btnFinalizarCompra">Confirmar Compra</string>
     <string name="content_desc_splash_screen">SPLASH SCREEN</string>
+<<<<<<< Updated upstream
     <string name="btnAcetaminofen">Acetaminofen</string>
     <string name="btnCream">Cold Cream</string>
     <string name="btnCurita">Curitas</string>
@@ -16,5 +29,7 @@
     <string name="btnMascarilla">Mascarilla</string>
     <string name="btnFactura">Factura</string>
 
+=======
+>>>>>>> Stashed changes
 
 </resources>
