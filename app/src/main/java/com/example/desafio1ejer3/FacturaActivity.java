@@ -32,8 +32,6 @@ public class FacturaActivity extends AppCompatActivity {
     public static FirebaseDatabase database = FirebaseDatabase.getInstance();
     public static DatabaseReference refHistorial = database.getReference("historial");
 
-    Query ordenada = refHistorial.orderByChild("nombre");
-
     List<DatosFarmacia> historial;
     private Button btnConfirmar;
     FirebaseAuth firebaseAuth;

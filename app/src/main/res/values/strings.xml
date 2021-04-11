@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Parcial2_DSM</string>
+    <string name="app_name">Farmacia Joseito</string>
     <string name="btnLogout">Cerrar Sesion</string>
     <string name="btnCompra">Realizar Compra</string>
     <string name="btnHistorial">Ver Historial</string>

@@ -57,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
         btnLogout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, LoginActivity.class);
                 //Sign out de google
                 googleSignInClient.signOut().addOnCompleteListener(new OnCompleteListener<Void>() {
                     @Override
@@ -69,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
                             Toast.makeText(getApplicationContext()
                             ,"Logout exitoso",Toast.LENGTH_SHORT).show();
                             //Finalizamos la activity
-                            finish();
+                            startActivity(i);
                         }
                     }
                 });

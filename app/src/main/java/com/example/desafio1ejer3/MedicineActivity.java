@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.desafio1ejer3.Datos.DatosFarmacia;
 
@@ -54,7 +55,12 @@ public class MedicineActivity extends AppCompatActivity {
                   costo = (contar1*2.00)+(contar2*8.30)+(contar3*2.50)+(contar4*4.20)+(contar5*3.50)+(contar6*3.40)+(contar7*9.70)+(contar8*2.50)+(contar9*6.40)+(contar10*0.50);
                   textView7.setText(Double.toString(costo));
                   i.putExtra("total", costo);
-                  startActivity(i);
+                  if(costo == 0){
+                      Toast.makeText(MedicineActivity.this,
+                              "Seleccione algun producto primero!", Toast.LENGTH_SHORT).show();
+                  }else{
+                      startActivity(i);
+                  }
               }
           });
       }

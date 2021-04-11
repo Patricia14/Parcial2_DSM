@@ -1,56 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:padding="16dp"
-android:stretchColumns="1">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/captura"
+    android:padding="16dp"
+    android:stretchColumns="1">
 
-<TableRow android:background="#128675">
+    <TableRow android:background="#128675">
 
-    <TextView
-        android:layout_column="0"
-        android:padding="3dip"
-        android:text="Producto"
-        android:textColor="@android:color/white" />
+        <TextView
+            android:layout_column="0"
+            android:padding="3dip"
+            android:text="Producto"
+            android:textColor="@android:color/white" />
 
-    <TextView
-        android:layout_column="0"
-        android:padding="3dip"
-        android:text="Cantidad"
-        android:textColor="@android:color/white" />
+        <TextView
+            android:layout_column="0"
+            android:padding="3dip"
+            android:text="Cantidad"
+            android:textColor="@android:color/white" />
 
-    <TextView
-        android:layout_column="2"
-        android:padding="3dip"
-        android:text="Subtotal"
-        android:textColor="@android:color/white" />
-</TableRow>
+        <TextView
+            android:layout_column="2"
+            android:padding="3dip"
+            android:text="Subtotal"
+            android:textColor="@android:color/white" />
+    </TableRow>
 
-<TableRow
-    android:id="@+id/tbl1">
+    <TableRow android:id="@+id/tbl1">
 
-    <TextView
-        android:id="@+id/producto1"
-        android:layout_column="0"
-        android:padding="3dip"
-        android:text="@string/text1" />
+        <TextView
+            android:id="@+id/producto1"
+            android:layout_column="0"
+            android:padding="3dip"
+            android:text="@string/text1" />
 
-    <TextView
-        android:id="@+id/cantidad1"
-        android:layout_column="0"
-        android:padding="3dip"
-        android:text="" />
+        <TextView
+            android:id="@+id/cantidad1"
+            android:layout_column="0"
+            android:padding="3dip"
+            android:text="" />
 
-    <TextView
-        android:id="@+id/subtotal1"
-        android:layout_column="2"
-        android:gravity="left"
-        android:padding="3dip"
-        android:text="" />
-</TableRow>
+        <TextView
+            android:id="@+id/subtotal1"
+            android:layout_column="2"
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="" />
+    </TableRow>
 
-    <TableRow
-        android:id="@+id/tbl2">
+    <TableRow android:id="@+id/tbl2">
 
         <TextView
             android:id="@+id/producto2"
@@ -72,8 +71,7 @@ android:stretchColumns="1">
             android:text="" />
     </TableRow>
 
-    <TableRow
-        android:id="@+id/tbl3">
+    <TableRow android:id="@+id/tbl3">
 
         <TextView
             android:id="@+id/producto3"
@@ -95,8 +93,7 @@ android:stretchColumns="1">
             android:text="" />
     </TableRow>
 
-    <TableRow
-        android:id="@+id/tbl4">
+    <TableRow android:id="@+id/tbl4">
 
         <TextView
             android:id="@+id/producto4"
@@ -118,8 +115,7 @@ android:stretchColumns="1">
             android:text="" />
     </TableRow>
 
-    <TableRow
-        android:id="@+id/tbl5">
+    <TableRow android:id="@+id/tbl5">
 
         <TextView
             android:id="@+id/producto5"
@@ -141,8 +137,7 @@ android:stretchColumns="1">
             android:text="" />
     </TableRow>
 
-    <TableRow
-        android:id="@+id/tbl6">
+    <TableRow android:id="@+id/tbl6">
 
         <TextView
             android:id="@+id/producto6"
@@ -164,8 +159,7 @@ android:stretchColumns="1">
             android:text="" />
     </TableRow>
 
-    <TableRow
-        android:id="@+id/tbl7">
+    <TableRow android:id="@+id/tbl7">
 
         <TextView
             android:id="@+id/producto7"
@@ -187,8 +181,7 @@ android:stretchColumns="1">
             android:text="" />
     </TableRow>
 
-    <TableRow
-        android:id="@+id/tbl8">
+    <TableRow android:id="@+id/tbl8">
 
         <TextView
             android:id="@+id/producto8"
@@ -210,8 +203,7 @@ android:stretchColumns="1">
             android:text="" />
     </TableRow>
 
-    <TableRow
-        android:id="@+id/tbl9">
+    <TableRow android:id="@+id/tbl9">
 
         <TextView
             android:id="@+id/producto9"
@@ -233,8 +225,7 @@ android:stretchColumns="1">
             android:text="" />
     </TableRow>
 
-    <TableRow
-        android:id="@+id/tbl10">
+    <TableRow android:id="@+id/tbl10">
 
         <TextView
             android:id="@+id/producto10"
@@ -256,28 +247,29 @@ android:stretchColumns="1">
             android:text="" />
     </TableRow>
 
-<View
-    android:layout_height="2dip"
-    android:background="#FF909090" />
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
 
-<TableRow>
+    <TableRow>
 
-    <TextView
-        android:layout_column="1"
-        android:padding="3dip"
-        android:text="Total a pagar"
-        android:textColor="#128675" />
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Total a pagar"
+            android:textColor="#E91E63"
+            android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/total"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_column="2"
-        android:layout_gravity="left"
-        android:gravity="right"
-        android:padding="3dip"
-        android:text="$43,4" />
-</TableRow>
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="left"
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="$43,4" />
+    </TableRow>
 
     <Button
         android:id="@+id/btnFinalizarCompra"

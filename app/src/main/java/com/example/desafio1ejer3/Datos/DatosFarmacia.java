@@ -17,6 +17,10 @@ public class DatosFarmacia {
 
     }
 
+    public DatosFarmacia(){
+
+    }
+
 
     public String getKey() {
         return key;
