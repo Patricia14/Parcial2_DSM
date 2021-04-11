@@ -82,4 +82,9 @@ public class MainActivity extends AppCompatActivity {
         Intent calculos = new Intent(this, MedicineActivity.class);
         startActivity(calculos);
     }
+
+    public void historial(View in){
+        Intent histo = new Intent(this, historial.class);
+        startActivity(histo);
+    }
 }
