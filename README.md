@@ -1,9 +1,9 @@
-##Bienvenidos al repositorio del Segundo parcial practico de DSM
+## Bienvenidos al repositorio del Segundo parcial practico de DSM
 
 #### **El ejercicio desarrollado es el número 3.**
 
 ##### Dicho ejercicio trata sobre la creación de una APP para sistema operativo Android.
-#####La aplicación está orientada a una farmacia, es decir el objetivo de la aplicación es que los clientes de la farmacia puedan realizar sus compras de medicamentos de una forma rápida, segura y sencilla.
+##### La aplicación está orientada a una farmacia, es decir el objetivo de la aplicación es que los clientes de la farmacia puedan realizar sus compras de medicamentos de una forma rápida, segura y sencilla.
 
 #### La aplicación cuenta con: 
 
